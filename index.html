@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ronald Jake N. Oloya — CSR, Web Developer & Video Editor</title>
+  <meta name="description"
+    content="Portfolio of Ronald Jake N. Oloya (RJNO) - Customer Service Specialist (PayPal Dispute, Claims & Fraud), Full-Stack Web Developer, and Video Editor based in the Philippines.">
+  <meta name="keywords"
+    content="Ronald Jake N. Oloya, RJNO, Customer Service Representative, PayPal CSR, Web Developer, Video Editor, Moldex Realty, KodeGo, Labo Camarines Norte">
+  <meta name="author" content="Ronald Jake N. Oloya">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Ronald Jake N. Oloya — Portfolio">
+  <meta property="og:description"
+    content="Customer Service Specialist, Full-Stack Web Developer & Video Editor with 90% FCR record and Ice Breaker Award.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Dynamic Cursor Spotlight Effect -->
+  <div id="spotlight" aria-hidden="true"></div>
+
+  <!-- Background Ambient Glow Accents -->
+  <div class="ambient-glow-top" aria-hidden="true"></div>
+  <div class="ambient-glow-bottom" aria-hidden="true"></div>
+
+  <!-- Main Container -->
+  <div class="portfolio-container">
+
+    <!-- ====================================================================
+         LEFT COLUMN: Fixed Sidebar (Header, Active Navigation, Socials)
+         ==================================================================== -->
+    <header class="sidebar-column" id="sidebar-header">
+      <div class="header-top">
+
+        <!-- Live Status Badge -->
+        <div class="status-pill" id="status-badge">
+          <span class="status-dot"></span>
+          <span>AVAILABLE FOR OPPORTUNITIES</span>
+        </div>
+
+        <!-- Name & Primary Title -->
+        <h1 class="author-name">
+          <a href="#about" id="author-name-link">Ronald <span class="name-jake">Jake</span> N. Oloya</a>
+        </h1>
+
+        <div class="author-title">
+          <span>Customer Service Representative</span>
+          <span class="role-badge">Tech Specialist</span>
+        </div>
+
+        <div class="author-location">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+            <circle cx="12" cy="10" r="3"></circle>
+          </svg>
+          <span>Labo, Camarines Norte, Philippines</span>
+        </div>
+
+        <p class="author-tagline">
+          I bridge the gap between <strong>high-stakes customer operations</strong>, <strong>full-stack web
+            development</strong>, and <strong>creative digital media</strong> to solve complex problems and deliver
+          measurable results.
+        </p>
+
+        <!-- Sidebar Navigation with ACTIVE Section Indicator -->
+        <nav class="sidebar-nav" id="sidebar-nav" aria-label="Main Navigation">
+          <ul class="nav-list">
+            <li>
+              <a href="#about" class="nav-link active" data-section="about" id="nav-about">
+                <span class="nav-indicator-line" aria-hidden="true"></span>
+                <span class="nav-label">
+                  <span class="nav-idx">-</span>
+                  <span class="nav-text">ABOUT</span>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="#experience" class="nav-link" data-section="experience" id="nav-experience">
+                <span class="nav-indicator-line" aria-hidden="true"></span>
+                <span class="nav-label">
+                  <span class="nav-idx">-</span>
+                  <span class="nav-text">EXPERIENCE</span>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="#education" class="nav-link" data-section="education" id="nav-education">
+                <span class="nav-indicator-line" aria-hidden="true"></span>
+                <span class="nav-label">
+                  <span class="nav-idx">-</span>
+                  <span class="nav-text">EDUCATION</span>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="#skills" class="nav-link" data-section="skills" id="nav-skills">
+                <span class="nav-indicator-line" aria-hidden="true"></span>
+                <span class="nav-label">
+                  <span class="nav-idx">-</span>
+                  <span class="nav-text">SKILLS & EXPERTISE</span>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="#contact" class="nav-link" data-section="contact" id="nav-contact">
+                <span class="nav-indicator-line" aria-hidden="true"></span>
+                <span class="nav-label">
+                  <span class="nav-idx">-</span>
+                  <span class="nav-text">CONTACT & CONNECT</span>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Sidebar Footer (Quick Resume Action & Socials) -->
+      <div class="sidebar-footer">
+        <a href="#contact" class="resume-cta-btn" id="view-resume-btn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="16" y1="13" x2="8" y2="13"></line>
+            <line x1="16" y1="17" x2="8" y2="17"></line>
+            <polyline points="10 9 9 9 8 9"></polyline>
+          </svg>
+          <span>Get In Touch / View Resume</span>
+        </a>
+
+        <ul class="social-links" aria-label="Social and Contact Links">
+          <li>
+            <a href="https://linkedin.com/in/rjno" target="_blank" rel="noopener noreferrer" class="social-link"
+              title="LinkedIn Profile" id="social-linkedin">
+              <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+              <span class="sr-only" style="display:none">LinkedIn</span>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:rjnoloya404@gmail.com" class="social-link" title="Send Email" id="social-email">
+              <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <span class="sr-only" style="display:none">Email</span>
+            </a>
+          </li>
+          <li>
+            <a href="tel:09245384369" class="social-link" title="Call or SMS" id="social-phone">
+              <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                </path>
+              </svg>
+              <span class="sr-only" style="display:none">Phone</span>
+            </a>
+          </li>
+          <li>
+            <a href="#contact" class="social-link" title="Direct Contact Details" id="social-contact">
+              <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+              </svg>
+              <span class="sr-only" style="display:none">Message</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- ====================================================================
+         RIGHT COLUMN: Scrollable Sections
+         ==================================================================== -->
+    <main class="content-column" id="main-content">
+
+      <!-- ------------------------------------------------------------------
+           SECTION 1: ABOUT
+           ------------------------------------------------------------------ -->
+      <section id="about" class="content-section" aria-labelledby="heading-about">
+        <div class="mobile-section-header">
+          <span class="mobile-section-title">01 // About</span>
+        </div>
+
+        <div class="about-text">
+          <p>
+            I'm a multi-skilled professional blending <strong>customer service excellence</strong>,
+            <strong>full-stack web development</strong>, and <strong>creative video production</strong> into one career.
+            At <strong>ePerformax BPO</strong> on the <strong>PayPal</strong> account, I handled everything from
+            General Care to Fraud &amp; Limitations &#8212; maintaining a consistent
+            <strong>90% First Call Resolution</strong> rate through sharp risk assessment and calm de-escalation.
+          </p>
+
+          <p>
+            Outside the call center, I earned the <strong>&#34;Ice Breaker Award&#34;</strong> at Moldex Realty as the
+            first
+            specialist on my team to close a major deal, and spent <strong>6+ years</strong> as a freelance video editor
+            crafting high-retention content for diverse clients. I later completed the
+            <strong>KodeGo Full Stack Web Development Bootcamp</strong> &#8212; turning my analytical mindset into
+            real-world software skills.
+          </p>
+
+          <!-- Core Philosophy Card -->
+          <div class="about-highlight-card">
+            <div class="highlight-title">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="16" x2="12" y2="12"></line>
+                <line x1="12" y1="8" x2="12.01" y2="8"></line>
+              </svg>
+              <span>Core Value Proposition</span>
+            </div>
+            <p class="highlight-desc">
+              I bring <strong>customer empathy</strong> to understand the real need,
+              <strong>technical precision</strong> to solve it reliably, and <strong>adaptability</strong> to thrive in
+              fast-paced, high-stakes environments &#8212; across any role or industry.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ------------------------------------------------------------------
+           SECTION 2: WORK EXPERIENCE
+           ------------------------------------------------------------------ -->
+      <section id="experience" class="content-section" aria-labelledby="heading-experience">
+        <div class="mobile-section-header">
+          <span class="mobile-section-title">02 // Experience</span>
+        </div>
+
+        <div class="cards-group">
+
+          <!-- Experience 1: Video Editor & Videographer -->
+          <article class="interactive-card" id="exp-video-editor">
+            <header class="card-period">2018 — 2024</header>
+            <div class="card-main">
+              <div class="card-heading">
+                <h3 class="card-title">
+                  <span>Video Editor / Videographer</span>
+                  <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                    <polyline points="7 7 17 7 17 17"></polyline>
+                  </svg>
+                </h3>
+              </div>
+              <div class="card-subtitle">
+                <span>Freelance Creative Services</span>
+              </div>
+              <div class="card-description">
+                <ul>
+                  <li>
+                    <strong>Adaptability and Flexibility:</strong> Mastered tailored editing styles, visual pacing, and
+                    techniques to match different project genres, commercial briefs, and unique client expectations.
+                  </li>
+                  <li>
+                    <strong>Feedback-Driven Revisions:</strong> Maintained an agile workflow with clients, incorporating
+                    feedback swiftly while preserving narrative cohesion, audio clarity, and high-retention audience
+                    engagement.
+                  </li>
+                  <li>
+                    <strong>End-to-End Post Production:</strong> Handled asset management, color grading, motion
+                    graphics, audio mastering, and multi-format rendering optimized for digital platforms.
+                  </li>
+                </ul>
+              </div>
+              <div class="card-pills">
+                <span class="pill">Video Editing</span>
+                <span class="pill">Videography</span>
+                <span class="pill">Motion Graphics</span>
+                <span class="pill">Audio Sync</span>
+                <span class="pill">Client Collaboration</span>
+                <span class="pill">Post-Production</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Experience 2: Property Specialist (Moldex Realty) -->
+          <article class="interactive-card" id="exp-property-specialist">
+            <header class="card-period">2022 — 2023</header>
+            <div class="card-main">
+              <div class="card-heading">
+                <h3 class="card-title">
+                  <span>Property Specialist</span>
+                  <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                    <polyline points="7 7 17 7 17 17"></polyline>
+                  </svg>
+                </h3>
+              </div>
+              <div class="card-subtitle">
+                <span>Moldex Realty Inc.</span>
+                <span class="award-badge">
+                  <span>🏆</span>
+                  <span>Ice Breaker Award</span>
+                </span>
+              </div>
+              <div class="card-description">
+                <ul>
+                  <li>
+                    <strong>Award-Winning Performance:</strong> Received the prestigious <em>"Ice Breaker Award"</em> as
+                    the first Property Specialist in the cohort to successfully close a high-value deal for a newly
+                    launched project.
+                  </li>
+                  <li>
+                    <strong>Market Analysis & Lead Generation:</strong> Executed proactive market research, targeted
+                    advertising campaigns, and tailored client presentations to attract qualified buyers.
+                  </li>
+                  <li>
+                    <strong>Contract & Negotiation Pipeline:</strong> Conducted comprehensive property showings, guided
+                    prospective buyers through financing options, and managed contract documentation through closing.
+                  </li>
+                </ul>
+              </div>
+              <div class="card-pills">
+                <span class="pill">Sales & Marketing</span>
+                <span class="pill">Ice Breaker Award</span>
+                <span class="pill">High-Ticket Negotiation</span>
+                <span class="pill">Market Research</span>
+                <span class="pill">Client Relations</span>
+                <span class="pill">Contract Closing</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Experience 3: CSR (ePerformax - PayPal) -->
+          <article class="interactive-card" id="exp-csr-paypal">
+            <header class="card-period">2019 — 2021</header>
+            <div class="card-main">
+              <div class="card-heading">
+                <h3 class="card-title">
+                  <span>Customer Service Representative</span>
+                  <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                    <polyline points="7 7 17 7 17 17"></polyline>
+                  </svg>
+                </h3>
+              </div>
+              <div class="card-subtitle">
+                <span>ePerformax BPO | Contact Center Outsourcing Philippines</span>
+              </div>
+              <div class="card-description">
+                <ul>
+                  <li>
+                    <strong>PayPal Tier Support & Resolution:</strong> Supported General Care, Dispute & Claims, and
+                    Limitations/Fraud departments, averaging a consistent <strong>90% First Call Resolution
+                      (FCR)</strong> rate.
+                  </li>
+                  <li>
+                    <strong>Risk & Fraud Assessment:</strong> Assessed and evaluated transaction security risks,
+                    suspicious activity indicators, and policy violations associated with specific user accounts.
+                  </li>
+                  <li>
+                    <strong>De-escalation & Limitation Management:</strong> Communicated with account holders regarding
+                    sensitive restrictions, verified security identities, collected necessary proof documentation, and
+                    maintained meticulous audit notes.
+                  </li>
+                </ul>
+              </div>
+              <div class="card-pills">
+                <span class="pill">First Call Resolution (90%)</span>
+                <span class="pill">Dispute & Claims</span>
+                <span class="pill">Fraud & Risk Assessment</span>
+                <span class="pill">Account Limitations</span>
+                <span class="pill">Customer Empathy</span>
+                <span class="pill">Conflict De-escalation</span>
+                <span class="pill">PayPal Core Tools</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- ------------------------------------------------------------------
+           SECTION 3: EDUCATION & CERTIFICATIONS
+           ------------------------------------------------------------------ -->
+      <section id="education" class="content-section" aria-labelledby="heading-education">
+        <div class="mobile-section-header">
+          <span class="mobile-section-title">03 // Education</span>
+        </div>
+
+        <div class="cards-group">
+
+          <!-- Education 1: KodeGo Bootcamp -->
+          <article class="interactive-card" id="edu-kodego">
+            <header class="card-period">2023</header>
+            <div class="card-main">
+              <div class="card-heading">
+                <h3 class="card-title">
+                  <span>Full Stack Web Developer</span>
+                  <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                    <polyline points="7 7 17 7 17 17"></polyline>
+                  </svg>
+                </h3>
+              </div>
+              <div class="card-subtitle">
+                <span>KodeGo Bootcamp</span>
+              </div>
+              <div class="card-description">
+                <p>
+                  Immersive engineering program covering modern full-stack web applications, component architecture,
+                  database modeling, RESTful API integrations, and collaborative agile git workflows. Developed
+                  practical user interfaces with focus on responsive layouts and UX best practices.
+                </p>
+              </div>
+              <div class="card-pills">
+                <span class="pill">Full-Stack Web Dev</span>
+                <span class="pill">HTML5 & CSS3</span>
+                <span class="pill">JavaScript (ES6+)</span>
+                <span class="pill">Responsive UI/UX</span>
+                <span class="pill">REST APIs</span>
+                <span class="pill">Git Version Control</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Education 2: Computer Hardware Servicing NC II -->
+          <article class="interactive-card" id="edu-mabini">
+            <header class="card-period">2009 — 2011</header>
+            <div class="card-main">
+              <div class="card-heading">
+                <h3 class="card-title">
+                  <span>Computer Hardware Servicing NC II</span>
+                  <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                    <polyline points="7 7 17 7 17 17"></polyline>
+                  </svg>
+                </h3>
+              </div>
+              <div class="card-subtitle">
+                <span>Mabini Colleges Inc.</span>
+              </div>
+              <div class="card-description">
+                <p>
+                  Technical qualification program certified in hardware diagnostics, computer assembly, system
+                  maintenance, LAN network cabling and configuration, and low-level operating system troubleshooting.
+                </p>
+              </div>
+              <div class="card-pills">
+                <span class="pill">NC II Certified</span>
+                <span class="pill">Hardware Diagnostics</span>
+                <span class="pill">PC Assembly & Servicing</span>
+                <span class="pill">LAN & Network Setup</span>
+                <span class="pill">System Troubleshooting</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- ------------------------------------------------------------------
+           SECTION 4: KEY SKILLS & EXPERTISE MATRIX
+           ------------------------------------------------------------------ -->
+      <section id="skills" class="content-section" aria-labelledby="heading-skills">
+        <div class="mobile-section-header">
+          <span class="mobile-section-title">04 // Skills & Expertise</span>
+        </div>
+
+        <div class="skills-grid">
+
+          <!-- Category 1: Customer Care & Operations -->
+          <div class="skill-category-card" id="skill-cat-cs">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+              </div>
+              <h3 class="category-title">Customer Operations & Trust</h3>
+            </div>
+            <div class="category-pills">
+              <span class="pill">First Call Resolution (90%)</span>
+              <span class="pill">Dispute & Claims Handling</span>
+              <span class="pill">Fraud & Risk Assessment</span>
+              <span class="pill">Account Limitations</span>
+              <span class="pill">Conflict De-escalation</span>
+              <span class="pill">Accurate Documentation</span>
+            </div>
+          </div>
+
+          <!-- Category 2: Web & Technical Engineering -->
+          <div class="skill-category-card" id="skill-cat-tech">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <h3 class="category-title">Web Development & Tech</h3>
+            </div>
+            <div class="category-pills">
+              <span class="pill">HTML5 & Modern CSS3</span>
+              <span class="pill">JavaScript (ES6+)</span>
+              <span class="pill">Full-Stack Development</span>
+              <span class="pill">UI/UX Layout Design</span>
+              <span class="pill">Hardware Servicing (NC II)</span>
+              <span class="pill">Git & Version Control</span>
+            </div>
+          </div>
+
+          <!-- Category 3: Creative & Media Production -->
+          <div class="skill-category-card" id="skill-cat-media">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"></rect>
+                  <line x1="7" y1="2" x2="7" y2="22"></line>
+                  <line x1="17" y1="2" x2="17" y2="22"></line>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <line x1="2" y1="7" x2="7" y2="7"></line>
+                  <line x1="2" y1="17" x2="7" y2="17"></line>
+                  <line x1="17" y1="17" x2="22" y2="17"></line>
+                  <line x1="17" y1="7" x2="22" y2="7"></line>
+                </svg>
+              </div>
+              <h3 class="category-title">Media & Creative Production</h3>
+            </div>
+            <div class="category-pills">
+              <span class="pill">Video Editing</span>
+              <span class="pill">Videography</span>
+              <span class="pill">Photo Editing</span>
+              <span class="pill">Motion Graphics</span>
+              <span class="pill">Visual Storytelling</span>
+              <span class="pill">Audio & Color Tuning</span>
+            </div>
+          </div>
+
+          <!-- Category 4: Professional Competencies -->
+          <div class="skill-category-card" id="skill-cat-prof">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                  </polygon>
+                </svg>
+              </div>
+              <h3 class="category-title">Professional Strengths</h3>
+            </div>
+            <div class="category-pills">
+              <span class="pill">Sales & Marketing</span>
+              <span class="pill">Negotiation Skills</span>
+              <span class="pill">Problem-Solving</span>
+              <span class="pill">Time Management</span>
+              <span class="pill">Active Listening</span>
+              <span class="pill">Rapid Adaptability</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ------------------------------------------------------------------
+           SECTION 5: CONTACT & CONNECT
+           ------------------------------------------------------------------ -->
+      <section id="contact" class="content-section" aria-labelledby="heading-contact">
+        <div class="mobile-section-header">
+          <span class="mobile-section-title">05 // Contact</span>
+        </div>
+
+        <div class="contact-box">
+          <p class="contact-lead">
+            I am actively open to discussing <strong>Customer Service Representative</strong> roles, <strong>Technical
+              Support / Fraud Operations</strong> positions, <strong>Web Development</strong> opportunities, and
+            <strong>Multimedia projects</strong>. Reach out directly or send a message below!
+          </p>
+
+          <div class="contact-details-grid">
+
+            <!-- Email Item with Copy Button -->
+            <div class="contact-item">
+              <div class="contact-meta">
+                <span class="contact-label">Email Address</span>
+                <a href="mailto:rjnoloya404@gmail.com" class="contact-value"
+                  id="contact-email-link">rjnoloya404@gmail.com</a>
+              </div>
+              <button class="copy-btn" data-copy="rjnoloya404@gmail.com" title="Copy Email to Clipboard"
+                aria-label="Copy Email" id="copy-email-btn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+              </button>
+            </div>
+
+            <!-- Phone Item with Copy Button -->
+            <div class="contact-item">
+              <div class="contact-meta">
+                <span class="contact-label">Phone / Mobile</span>
+                <a href="tel:09245384369" class="contact-value" id="contact-phone-link">0924 538 4369</a>
+              </div>
+              <button class="copy-btn" data-copy="09245384369" title="Copy Phone to Clipboard"
+                aria-label="Copy Phone Number" id="copy-phone-btn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+              </button>
+            </div>
+
+            <!-- LinkedIn Item -->
+            <div class="contact-item">
+              <div class="contact-meta">
+                <span class="contact-label">LinkedIn</span>
+                <a href="https://linkedin.com/in/rjno" target="_blank" rel="noopener noreferrer"
+                  class="contact-value">linkedin.com/in/rjno ↗</a>
+              </div>
+            </div>
+
+            <!-- Location Item -->
+            <div class="contact-item">
+              <div class="contact-meta">
+                <span class="contact-label">Location</span>
+                <span class="contact-value">Labo, Camarines Norte</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Quick Interactive Direct Form -->
+          <form class="quick-message-form" id="contact-form">
+            <div class="form-group">
+              <label for="sender-name" class="form-label">Your Name</label>
+              <input type="text" id="sender-name" class="form-input" placeholder="e.g. Alex Reyes" required>
+            </div>
+
+            <div class="form-group">
+              <label for="sender-email" class="form-label">Your Email</label>
+              <input type="email" id="sender-email" class="form-input" placeholder="e.g. alex@company.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="sender-message" class="form-label">Message / Opportunity</label>
+              <textarea id="sender-message" class="form-textarea"
+                placeholder="Hi Jake, I'd like to discuss an opportunity regarding..." required></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn" id="send-msg-btn">
+              <span>Send Message</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                stroke-linejoin="round">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+            </button>
+          </form>
+        </div>
+
+        <!-- Footer Colophon -->
+        <footer class="footer-note">
+          <p>
+            Designed with the iconic minimalist aesthetic inspired by <a href="https://brittanychiang.com/"
+              target="_blank" rel="noopener noreferrer">Brittany Chiang</a>, enhanced with a custom <strong>Dark Olive
+              Green</strong> and <strong>Electric Neon Green</strong> palette. Handcrafted with semantic HTML5, Vanilla
+            CSS, and JavaScript.
+          </p>
+          <p style="margin-top: 0.5rem; font-family: var(--font-mono); font-size: 0.78rem;">
+            © <span id="current-year">2026</span> Ronald Jake N. Oloya. All rights reserved.
+          </p>
+        </footer>
+      </section>
+
+    </main>
+
+  </div>
+
+  <!-- Toast Notification Feedback -->
+  <div id="toast" role="alert" aria-live="polite">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" style="stroke: var(--neon-primary)">
+      <polyline points="20 6 9 17 4 12"></polyline>
+    </svg>
+    <span id="toast-message">Copied to clipboard!</span>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "rjno-portfolio",
+  "version": "1.0.0",
+  "description": "Modern dark olive & neon green developer & specialist portfolio for Ronald Jake N. Oloya",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve . -p 3000",
+    "dev": "npx serve . -p 3000"
+  },
+  "keywords": [
+    "portfolio",
+    "customer-service",
+    "web-developer",
+    "video-editor",
+    "dark-olive",
+    "neon-green"
+  ],
+  "author": "Ronald Jake N. Oloya",
+  "license": "MIT"
+}
